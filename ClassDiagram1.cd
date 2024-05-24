@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Diplome1.Classes.DB_connector">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAEAAEAAAAAABAAAAAAAQAQAAAAAAAACAAAA=</HashCode>
+      <FileName>Classes\DB_connector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.Classes.MSSQL_Autorization">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAEAAEAAAAAABAAAAAAAQEQAAAAAAAACAAAA=</HashCode>
+      <FileName>Classes\MSSQL_Autorization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.Classes.MySQL">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAEAAEAAAAAABAAAAAAAQEQAAAAAAAACAAAA=</HashCode>
+      <FileName>Classes\MySQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.Classes.Windows_MSSQL">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAEAAEAAAAAABAAAAAAAQEQAAAAAAAACAAAA=</HashCode>
+      <FileName>Classes\Windows_MSSQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.LoginForm">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAARAACAhIBACEACAAAACgAAAAAAAAABAAAAQgAE=</HashCode>
+      <FileName>LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.Program">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.TableForm">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="add_button" Hidden="true" />
+      <Field Name="add_con_button1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="con_comboBox" Hidden="true" />
+      <Field Name="con_label" Hidden="true" />
+      <Field Name="condition_label" Hidden="true" />
+      <Field Name="exp_con_textBox" Hidden="true" />
+      <Field Name="exp_file" Hidden="true" />
+      <Field Name="exp_label" Hidden="true" />
+      <Field Name="field_comboBox" Hidden="true" />
+      <Field Name="field_con_comboBox" Hidden="true" />
+      <Field Name="field_con_label" Hidden="true" />
+      <Field Name="fill_dataGridView" Hidden="true" />
+      <Field Name="fun_label" Hidden="true" />
+      <Field Name="function_comboBox" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="Out_textBox1" Hidden="true" />
+      <Field Name="run_button" Hidden="true" />
+      <Field Name="tabl_name_label" Hidden="true" />
+      <Field Name="table_name_comboBox1" Hidden="true" />
+      <Field Name="table_treeView" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgQQCAyCgLAiALsEgACEDCAGAACkiAhQABBAAgBCAiA=</HashCode>
+      <FileName>TableForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.Properties.Resources">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diplome1.Properties.Settings">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
