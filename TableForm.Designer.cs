@@ -115,9 +115,9 @@ namespace Diplome1
             this.field_con_label.AutoSize = true;
             this.field_con_label.Location = new System.Drawing.Point(842, 93);
             this.field_con_label.Name = "field_con_label";
-            this.field_con_label.Size = new System.Drawing.Size(38, 17);
+            this.field_con_label.Size = new System.Drawing.Size(53, 21);
             this.field_con_label.TabIndex = 9;
-            this.field_con_label.Text = "Field";
+            this.field_con_label.Text = "Поле";
             this.field_con_label.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // con_label
@@ -125,18 +125,18 @@ namespace Diplome1
             this.con_label.AutoSize = true;
             this.con_label.Location = new System.Drawing.Point(994, 93);
             this.con_label.Name = "con_label";
-            this.con_label.Size = new System.Drawing.Size(67, 17);
+            this.con_label.Size = new System.Drawing.Size(159, 21);
             this.con_label.TabIndex = 10;
-            this.con_label.Text = "Condition";
+            this.con_label.Text = "Умова порівняння";
             // 
             // exp_label
             // 
             this.exp_label.AutoSize = true;
             this.exp_label.Location = new System.Drawing.Point(1155, 93);
             this.exp_label.Name = "exp_label";
-            this.exp_label.Size = new System.Drawing.Size(77, 17);
+            this.exp_label.Size = new System.Drawing.Size(204, 21);
             this.exp_label.TabIndex = 11;
-            this.exp_label.Text = "Expression";
+            this.exp_label.Text = "Вираз що порівнюється";
             // 
             // field_comboBox
             // 
@@ -149,7 +149,7 @@ namespace Diplome1
             // field_con_comboBox
             // 
             this.field_con_comboBox.FormattingEnabled = true;
-            this.field_con_comboBox.Location = new System.Drawing.Point(845, 122);
+            this.field_con_comboBox.Location = new System.Drawing.Point(845, 121);
             this.field_con_comboBox.Name = "field_con_comboBox";
             this.field_con_comboBox.Size = new System.Drawing.Size(121, 24);
             this.field_con_comboBox.TabIndex = 14;
@@ -158,14 +158,14 @@ namespace Diplome1
             // con_comboBox
             // 
             this.con_comboBox.FormattingEnabled = true;
-            this.con_comboBox.Location = new System.Drawing.Point(997, 122);
+            this.con_comboBox.Location = new System.Drawing.Point(997, 120);
             this.con_comboBox.Name = "con_comboBox";
             this.con_comboBox.Size = new System.Drawing.Size(121, 24);
             this.con_comboBox.TabIndex = 15;
             // 
             // exp_con_textBox
             // 
-            this.exp_con_textBox.Location = new System.Drawing.Point(1158, 124);
+            this.exp_con_textBox.Location = new System.Drawing.Point(1158, 120);
             this.exp_con_textBox.Name = "exp_con_textBox";
             this.exp_con_textBox.Size = new System.Drawing.Size(136, 22);
             this.exp_con_textBox.TabIndex = 16;
@@ -176,17 +176,17 @@ namespace Diplome1
             this.add_button.Name = "add_button";
             this.add_button.Size = new System.Drawing.Size(75, 23);
             this.add_button.TabIndex = 17;
-            this.add_button.Text = "Add";
+            this.add_button.Text = "Додати";
             this.add_button.UseVisualStyleBackColor = true;
             this.add_button.Click += new System.EventHandler(this.add_button_Click);
             // 
             // add_con_button1
             // 
-            this.add_con_button1.Location = new System.Drawing.Point(1333, 124);
+            this.add_con_button1.Location = new System.Drawing.Point(1328, 119);
             this.add_con_button1.Name = "add_con_button1";
             this.add_con_button1.Size = new System.Drawing.Size(75, 23);
             this.add_con_button1.TabIndex = 18;
-            this.add_con_button1.Text = "Add";
+            this.add_con_button1.Text = "Додати";
             this.add_con_button1.UseVisualStyleBackColor = true;
             this.add_con_button1.Click += new System.EventHandler(this.add_con_button1_Click);
             // 
@@ -196,7 +196,7 @@ namespace Diplome1
             this.run_button.Name = "run_button";
             this.run_button.Size = new System.Drawing.Size(108, 41);
             this.run_button.TabIndex = 19;
-            this.run_button.Text = "Run";
+            this.run_button.Text = "Запуск";
             this.run_button.UseVisualStyleBackColor = true;
             this.run_button.Click += new System.EventHandler(this.run_button_Click);
             // 
@@ -212,9 +212,9 @@ namespace Diplome1
             // 
             this.exp_file.Location = new System.Drawing.Point(227, 695);
             this.exp_file.Name = "exp_file";
-            this.exp_file.Size = new System.Drawing.Size(105, 41);
+            this.exp_file.Size = new System.Drawing.Size(108, 41);
             this.exp_file.TabIndex = 21;
-            this.exp_file.Text = "Export";
+            this.exp_file.Text = "Експортувати";
             this.exp_file.UseVisualStyleBackColor = true;
             this.exp_file.Click += new System.EventHandler(this.exp_file_Click);
             // 
@@ -224,7 +224,7 @@ namespace Diplome1
             this.clear_button1.Name = "clear_button1";
             this.clear_button1.Size = new System.Drawing.Size(111, 41);
             this.clear_button1.TabIndex = 22;
-            this.clear_button1.Text = "Clear";
+            this.clear_button1.Text = "Очистити";
             this.clear_button1.UseVisualStyleBackColor = true;
             this.clear_button1.Click += new System.EventHandler(this.clear_button1_Click);
             // 
@@ -234,7 +234,7 @@ namespace Diplome1
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(227, 37);
             this.button1.TabIndex = 23;
-            this.button1.Text = "Change connection";
+            this.button1.Text = "Змінити підключення";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -254,36 +254,36 @@ namespace Diplome1
             this.add_opp_button2.Name = "add_opp_button2";
             this.add_opp_button2.Size = new System.Drawing.Size(75, 23);
             this.add_opp_button2.TabIndex = 26;
-            this.add_opp_button2.Text = "Add";
+            this.add_opp_button2.Text = "Додати";
             this.add_opp_button2.UseVisualStyleBackColor = true;
             this.add_opp_button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // join_label2
             // 
             this.join_label2.AutoSize = true;
-            this.join_label2.Location = new System.Drawing.Point(266, 245);
+            this.join_label2.Location = new System.Drawing.Point(240, 248);
             this.join_label2.Name = "join_label2";
-            this.join_label2.Size = new System.Drawing.Size(34, 17);
+            this.join_label2.Size = new System.Drawing.Size(163, 17);
             this.join_label2.TabIndex = 27;
-            this.join_label2.Text = "Join";
+            this.join_label2.Text = "Виберіть оператор Join";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(266, 283);
+            this.label2.Location = new System.Drawing.Point(254, 283);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 17);
+            this.label2.Size = new System.Drawing.Size(152, 17);
             this.label2.TabIndex = 28;
-            this.label2.Text = "First Table Name";
+            this.label2.Text = "Назва першої таблиці";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(266, 317);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 17);
+            this.label3.Size = new System.Drawing.Size(181, 21);
             this.label3.TabIndex = 29;
-            this.label3.Text = "Second Table Name";
+            this.label3.Text = "Назва другої таблиці";
             // 
             // first_table_comboBox1
             // 
@@ -311,23 +311,24 @@ namespace Diplome1
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(552, 283);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 17);
+            this.label4.Size = new System.Drawing.Size(115, 21);
             this.label4.TabIndex = 32;
-            this.label4.Text = "Field";
+            this.label4.Text = "Поле зв\'язку";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(552, 317);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 17);
+            this.label5.Size = new System.Drawing.Size(115, 21);
             this.label5.TabIndex = 33;
-            this.label5.Text = "Field";
+            this.label5.Text = "Поле зв\'язку";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // join_field_comboBox1
             // 
             this.join_field_comboBox1.FormattingEnabled = true;
-            this.join_field_comboBox1.Location = new System.Drawing.Point(596, 280);
+            this.join_field_comboBox1.Location = new System.Drawing.Point(649, 280);
             this.join_field_comboBox1.Name = "join_field_comboBox1";
             this.join_field_comboBox1.Size = new System.Drawing.Size(121, 24);
             this.join_field_comboBox1.TabIndex = 34;
@@ -335,18 +336,18 @@ namespace Diplome1
             // join_sec_field_comboBox1
             // 
             this.join_sec_field_comboBox1.FormattingEnabled = true;
-            this.join_sec_field_comboBox1.Location = new System.Drawing.Point(596, 314);
+            this.join_sec_field_comboBox1.Location = new System.Drawing.Point(649, 314);
             this.join_sec_field_comboBox1.Name = "join_sec_field_comboBox1";
             this.join_sec_field_comboBox1.Size = new System.Drawing.Size(121, 24);
             this.join_sec_field_comboBox1.TabIndex = 35;
             // 
             // join_button2
             // 
-            this.join_button2.Location = new System.Drawing.Point(743, 295);
+            this.join_button2.Location = new System.Drawing.Point(786, 296);
             this.join_button2.Name = "join_button2";
             this.join_button2.Size = new System.Drawing.Size(75, 23);
             this.join_button2.TabIndex = 36;
-            this.join_button2.Text = "Add";
+            this.join_button2.Text = "Додати";
             this.join_button2.UseVisualStyleBackColor = true;
             this.join_button2.Click += new System.EventHandler(this.join_button2_Click);
             // 
@@ -365,55 +366,58 @@ namespace Diplome1
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(842, 167);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 17);
+            this.label7.Size = new System.Drawing.Size(188, 21);
             this.label7.TabIndex = 38;
-            this.label7.Text = "Querry poss";
+            this.label7.Text = "Додаткові оператори";
             // 
             // withc_join_comboBox1
             // 
             this.withc_join_comboBox1.FormattingEnabled = true;
-            this.withc_join_comboBox1.Location = new System.Drawing.Point(323, 242);
+            this.withc_join_comboBox1.Location = new System.Drawing.Point(409, 241);
             this.withc_join_comboBox1.Name = "withc_join_comboBox1";
             this.withc_join_comboBox1.Size = new System.Drawing.Size(121, 24);
             this.withc_join_comboBox1.TabIndex = 39;
             // 
             // start_with_button2
             // 
-            this.start_with_button2.Location = new System.Drawing.Point(596, 50);
+            this.start_with_button2.Location = new System.Drawing.Point(786, 48);
             this.start_with_button2.Name = "start_with_button2";
-            this.start_with_button2.Size = new System.Drawing.Size(75, 23);
+            this.start_with_button2.Size = new System.Drawing.Size(180, 23);
             this.start_with_button2.TabIndex = 40;
-            this.start_with_button2.Text = "Start with";
+            this.start_with_button2.Text = "Почати формування";
             this.start_with_button2.UseVisualStyleBackColor = true;
+            this.start_with_button2.Click += new System.EventHandler(this.start_with_button2_Click);
             // 
             // end_with_button2
             // 
-            this.end_with_button2.Location = new System.Drawing.Point(880, 50);
+            this.end_with_button2.Location = new System.Drawing.Point(981, 48);
             this.end_with_button2.Name = "end_with_button2";
-            this.end_with_button2.Size = new System.Drawing.Size(75, 23);
+            this.end_with_button2.Size = new System.Drawing.Size(189, 23);
             this.end_with_button2.TabIndex = 41;
-            this.end_with_button2.Text = "End with";
+            this.end_with_button2.Text = "Закінчити формування";
             this.end_with_button2.UseVisualStyleBackColor = true;
+            this.end_with_button2.Click += new System.EventHandler(this.end_with_button2_Click);
             // 
             // with_name_textBox1
             // 
-            this.with_name_textBox1.Location = new System.Drawing.Point(698, 50);
+            this.with_name_textBox1.Location = new System.Drawing.Point(611, 50);
             this.with_name_textBox1.Name = "with_name_textBox1";
             this.with_name_textBox1.Size = new System.Drawing.Size(159, 22);
             this.with_name_textBox1.TabIndex = 42;
+            this.with_name_textBox1.TextChanged += new System.EventHandler(this.with_name_textBox1_TextChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(740, 22);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 17);
+            this.label8.Size = new System.Drawing.Size(316, 21);
             this.label8.TabIndex = 43;
-            this.label8.Text = "With name";
+            this.label8.Text = "Назва загального табличного виразу";
             // 
             // table_name_comboBox1
             // 
-            this.table_name_comboBox1.Location = new System.Drawing.Point(336, 48);
+            this.table_name_comboBox1.Location = new System.Drawing.Point(351, 50);
             this.table_name_comboBox1.Name = "table_name_comboBox1";
             this.table_name_comboBox1.Size = new System.Drawing.Size(208, 24);
             this.table_name_comboBox1.TabIndex = 47;
@@ -422,11 +426,11 @@ namespace Diplome1
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(256, 56);
+            this.label9.Location = new System.Drawing.Point(233, 51);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 17);
+            this.label9.Size = new System.Drawing.Size(102, 17);
             this.label9.TabIndex = 50;
-            this.label9.Text = "Table";
+            this.label9.Text = "Назва таблиці";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label1
@@ -434,27 +438,27 @@ namespace Diplome1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(256, 93);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 21);
+            this.label1.Size = new System.Drawing.Size(62, 17);
             this.label1.TabIndex = 51;
-            this.label1.Text = "Function";
+            this.label1.Text = "Функція";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(407, 97);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(38, 17);
+            this.label10.Size = new System.Drawing.Size(53, 21);
             this.label10.TabIndex = 52;
-            this.label10.Text = "Field";
+            this.label10.Text = "Поле";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(593, 97);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(99, 21);
+            this.label11.Size = new System.Drawing.Size(105, 21);
             this.label11.TabIndex = 53;
-            this.label11.Text = "Field Name";
+            this.label11.Text = "Назва поля";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // fiel_name_textBox1
@@ -522,7 +526,7 @@ namespace Diplome1
             this.Controls.Add(this.fill_dataGridView);
             this.Controls.Add(this.table_treeView);
             this.Name = "TableForm";
-            this.Text = "TableForm";
+            this.Text = "SQL-конструктор";
             this.Load += new System.EventHandler(this.TableForm_Load);
             this.Shown += new System.EventHandler(this.TableForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fill_dataGridView)).EndInit();
